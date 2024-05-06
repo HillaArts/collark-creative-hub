@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List - Collark Creative Hub</title>
+    <!-- Bootstrap CSS for quick styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link to your custom CSS for further customization -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="bg-dark text-white p-4 text-center">
+        <h1>Collark Creative Hub</h1>
+        <p>Welcome to our product catalog!</p>
+    </header>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Example product, replicate this block for each product in your database -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="{{ url_for('static', filename='images/product-image.jpg') }}" class="card-img-top" alt="Product Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Product Name</h5>
+                        <p class="card-text">Short description of the product...</p>
+                        <p class="card-text"><strong>Price: $XX.XX</strong></p>
+                        <a href="#" class="btn btn-primary">View Product</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat the above block for each product -->
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-3">
+        © 2024 Collark Creative Hub, All rights reserved.
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
