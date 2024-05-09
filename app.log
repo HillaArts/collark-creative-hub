@@ -1,0 +1,77 @@
+2024-05-08 18:17:12,847 INFO  * Restarting with stat
+2024-05-08 18:25:12,029 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-08 18:25:12,032 INFO [33mPress CTRL+C to quit[0m
+2024-05-08 18:25:12,036 INFO  * Restarting with stat
+2024-05-08 18:25:13,289 WARNING  * Debugger is active!
+2024-05-08 18:25:13,303 INFO  * Debugger PIN: 524-205-051
+2024-05-08 18:25:19,921 INFO 127.0.0.1 - - [08/May/2024 18:25:19] "GET / HTTP/1.1" 200 -
+2024-05-08 18:25:20,664 INFO 127.0.0.1 - - [08/May/2024 18:25:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-05-08 18:25:20,851 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:25:20,916 INFO 127.0.0.1 - - [08/May/2024 18:25:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 18:25:23,720 INFO 127.0.0.1 - - [08/May/2024 18:25:23] "GET / HTTP/1.1" 200 -
+2024-05-08 18:25:23,747 INFO 127.0.0.1 - - [08/May/2024 18:25:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-05-08 18:25:23,803 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:25:23,895 INFO 127.0.0.1 - - [08/May/2024 18:25:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 18:25:24,930 INFO 127.0.0.1 - - [08/May/2024 18:25:24] "GET /register HTTP/1.1" 200 -
+2024-05-08 18:25:24,951 INFO 127.0.0.1 - - [08/May/2024 18:25:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-05-08 18:25:24,977 INFO 127.0.0.1 - - [08/May/2024 18:25:24] "[36mGET /static/js/form-validation.js HTTP/1.1[0m" 304 -
+2024-05-08 18:25:24,980 INFO 127.0.0.1 - - [08/May/2024 18:25:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2024-05-08 18:25:25,089 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:25:25,122 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:25:25,206 INFO 127.0.0.1 - - [08/May/2024 18:25:25] "[35m[1mGET /path/to/your/purchase/history/api HTTP/1.1[0m" 500 -
+2024-05-08 18:25:25,296 INFO 127.0.0.1 - - [08/May/2024 18:25:25] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 18:25:27,646 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:25:27,719 INFO 127.0.0.1 - - [08/May/2024 18:25:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 18:25:28,554 INFO 127.0.0.1 - - [08/May/2024 18:25:28] "GET /login HTTP/1.1" 200 -
+2024-05-08 18:25:28,582 INFO 127.0.0.1 - - [08/May/2024 18:25:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-05-08 18:25:28,611 INFO 127.0.0.1 - - [08/May/2024 18:25:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2024-05-08 18:25:28,750 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:25:28,776 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:25:28,862 INFO 127.0.0.1 - - [08/May/2024 18:25:28] "[35m[1mGET /path/to/your/purchase/history/api HTTP/1.1[0m" 500 -
+2024-05-08 18:25:28,897 INFO 127.0.0.1 - - [08/May/2024 18:25:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 18:25:30,545 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:25:30,623 INFO 127.0.0.1 - - [08/May/2024 18:25:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 18:59:41,287 INFO 127.0.0.1 - - [08/May/2024 18:59:41] "GET /register HTTP/1.1" 200 -
+2024-05-08 18:59:41,453 INFO 127.0.0.1 - - [08/May/2024 18:59:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-05-08 18:59:41,454 INFO 127.0.0.1 - - [08/May/2024 18:59:41] "[36mGET /static/js/form-validation.js HTTP/1.1[0m" 304 -
+2024-05-08 18:59:41,461 INFO 127.0.0.1 - - [08/May/2024 18:59:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2024-05-08 18:59:42,141 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:59:42,293 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:59:42,863 INFO 127.0.0.1 - - [08/May/2024 18:59:42] "[35m[1mGET /path/to/your/purchase/history/api HTTP/1.1[0m" 500 -
+2024-05-08 18:59:42,939 INFO 127.0.0.1 - - [08/May/2024 18:59:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 18:59:46,448 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:59:46,530 INFO 127.0.0.1 - - [08/May/2024 18:59:46] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 18:59:48,152 INFO 127.0.0.1 - - [08/May/2024 18:59:48] "GET /login HTTP/1.1" 200 -
+2024-05-08 18:59:48,174 INFO 127.0.0.1 - - [08/May/2024 18:59:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-05-08 18:59:48,201 INFO 127.0.0.1 - - [08/May/2024 18:59:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2024-05-08 18:59:48,274 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:59:48,284 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:59:48,851 INFO 127.0.0.1 - - [08/May/2024 18:59:48] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 18:59:48,882 INFO 127.0.0.1 - - [08/May/2024 18:59:48] "[35m[1mGET /path/to/your/purchase/history/api HTTP/1.1[0m" 500 -
+2024-05-08 18:59:56,153 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 18:59:56,219 INFO 127.0.0.1 - - [08/May/2024 18:59:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 19:00:10,789 INFO 127.0.0.1 - - [08/May/2024 19:00:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-05-08 19:00:10,842 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 19:00:10,909 INFO 127.0.0.1 - - [08/May/2024 19:00:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 19:00:17,580 INFO 127.0.0.1 - - [08/May/2024 19:00:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2024-05-08 19:00:17,585 INFO 127.0.0.1 - - [08/May/2024 19:00:17] "[36mGET /static/js/form-validation.js HTTP/1.1[0m" 304 -
+2024-05-08 19:00:17,612 INFO 127.0.0.1 - - [08/May/2024 19:00:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-05-08 19:00:17,633 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 19:00:17,688 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 19:00:17,746 INFO 127.0.0.1 - - [08/May/2024 19:00:17] "[35m[1mGET /path/to/your/purchase/history/api HTTP/1.1[0m" 500 -
+2024-05-08 19:00:17,806 INFO 127.0.0.1 - - [08/May/2024 19:00:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 19:00:23,459 INFO 127.0.0.1 - - [08/May/2024 19:00:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-05-08 19:00:23,729 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 19:00:23,792 INFO 127.0.0.1 - - [08/May/2024 19:00:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 19:01:09,997 INFO 127.0.0.1 - - [08/May/2024 19:01:09] "GET / HTTP/1.1" 200 -
+2024-05-08 19:01:10,570 INFO 127.0.0.1 - - [08/May/2024 19:01:10] "GET /static/css/style.css HTTP/1.1" 200 -
+2024-05-08 19:01:10,608 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 19:01:10,685 INFO 127.0.0.1 - - [08/May/2024 19:01:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 19:01:18,550 INFO 127.0.0.1 - - [08/May/2024 19:01:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2024-05-08 19:01:28,110 ERROR 404 Error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-05-08 19:01:28,558 INFO 127.0.0.1 - - [08/May/2024 19:01:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2024-05-08 19:01:28,704 INFO 127.0.0.1 - - [08/May/2024 19:01:28] "GET /favicon.ico?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-08 19:01:28,708 INFO 127.0.0.1 - - [08/May/2024 19:01:28] "GET /favicon.ico?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-08 19:01:28,737 INFO 127.0.0.1 - - [08/May/2024 19:01:28] "GET /favicon.ico?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-08 19:01:28,852 INFO 127.0.0.1 - - [08/May/2024 19:01:28] "[36mGET /favicon.ico?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

@@ -1,0 +1,205 @@
+/* style.css located in /static/css/ */
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f1bb09;
+    color: #333;
+}
+
+header {
+    background: rgba(4, 240, 248, 0.533);
+    color: #a305ec;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #800505;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #404040;
+    color: #0ff582;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.card {
+    background: #d1e705;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card-body {
+    padding: 15px;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #b4f10c;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ffcc00;
+    color: #404040;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #f1b900;
+}
+
+/* Adjusting the layout for small screens */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1571ce;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #23f008;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #04AA6D;
+    color: rgb(41, 8, 8);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0670da;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    background: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* makes sure padding doesn't affect width */
+    margin-bottom: 20px;
+}
+
+form textarea {
+    resize: vertical; /* allows vertical resizing only */
+}
+
+form input[type="submit"] {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #003d80;
+}
